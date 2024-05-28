@@ -8,8 +8,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/form_auth")
 public class FormAuthController {
 
-	@GetMapping("/report")
+	// GET, POST, PUT, DELETE 都可以使用
+	@RequestMapping("/report")
 	public String report() {
 		return "Protected Report";
 	}
+	
 }
