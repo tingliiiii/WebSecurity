@@ -1,4 +1,4 @@
-package com.example.demo.fliter;
+package com.example.demo.filter;
 
 import java.io.IOException;
 

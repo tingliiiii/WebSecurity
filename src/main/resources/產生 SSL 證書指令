@@ -1,0 +1,12 @@
+產生 SSL 證書指令
+keytool -genkey -alias myssl -keyalg RSA -keystore keystore.jks -keysize 2048
+產生 key、名稱、加密方法、儲存位置、大小（2048bits）
+
+---------------------------------------------------------------------------------
+SpringBoot 配置(修改 application.properties)
+
+server.port=8443
+server.ssl.key-store=classpath:keystore.jks
+server.ssl.key-store-password=your_password
+server.ssl.key-password=your_password
+server.ssl.key-store-type=JKS
