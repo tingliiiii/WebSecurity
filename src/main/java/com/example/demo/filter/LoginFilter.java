@@ -59,7 +59,7 @@ public class LoginFilter implements Filter {
 				return;
 			}
 			
-			// 判斷 csrfToken 令牌是否有效 ?
+			// 判斷 csrfToken 令牌是否有效
 			String csrfToken = req.getParameter("csrfToken"); // 表單傳來的 token
 			String csrfTokenFromSession = session.getAttribute("csrfToken") + "";
 

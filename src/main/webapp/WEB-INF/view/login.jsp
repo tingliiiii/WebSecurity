@@ -2,10 +2,10 @@
 	import="java.util.UUID" pageEncoding="UTF-8"%>
 
 <%
-// 生成 CSRF 令牌
-String csrfToken = UUID.randomUUID().toString();
-// 將 CSRF 令牌保存在 session 中
-session.setAttribute("csrfToken", csrfToken);
+	// 生成 CSRF 令牌
+	String csrfToken = UUID.randomUUID().toString();
+	// 將 CSRF 令牌保存在 session 中
+	session.setAttribute("csrfToken", csrfToken);
 %>
 
 <!DOCTYPE html>
