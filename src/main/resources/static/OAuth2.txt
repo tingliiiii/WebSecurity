@@ -1,0 +1,11 @@
+Homepage URL
+https://172.20.10.5:8443/index.html
+
+Authorization callback URL
+https://172.20.10.5:8443/callback/github
+
+Client ID
+Ov23ctdZ6Au5wfqlw8x3
+
+Client secrets 密鑰
+8e7879645b98f35ac4c14db10f2732a1c8a715e9
