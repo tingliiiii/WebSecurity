@@ -1,7 +1,7 @@
 Homepage URL
 https://172.20.10.5:8443/index.html
 
-Authorization callback URL
+Authorization callback URL（認證後要裝 code 的網頁）
 https://172.20.10.5:8443/callback/github
 
 Client ID

@@ -1,0 +1,25 @@
+1.
+Github OAuth 2.0 設定資料並記錄
+Callback URL: https://xxxxx:8443/callback/github
+Client ID: xxxxx
+Client secret: xxxxx
+
+2.
+oauth2.OAuth2Util.java 配置上方資料
+
+3.
+撰寫 callback.GithubCallback.java
+
+4.
+撰寫 oauth2.GithubLogin.java
+
+5.
+設定 login.jsp 
+<a href="/oauth2/github/login">使用 Github 登入 (OAuth2)</a><p />
+
+6.
+啟動 Springboot-WebSecurity-8084
+
+7.
+瀏覽器網址
+https://10.100.53.58:8443/form_auth/report
