@@ -22,4 +22,4 @@ oauth2.OAuth2Util.java 配置上方資料
 
 7.
 瀏覽器網址
-https://10.100.53.58:8443/form_auth/report
+https://localhost:8443/form_auth/report

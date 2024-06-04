@@ -53,7 +53,7 @@ public class LoginFilter implements Filter {
 			String username = req.getParameter("username");
 			String password = req.getParameter("password");
 
-			// 如果沒有 username 的資料代表是第一次登入，重導至登入頁面
+			// 判斷是否有輸入 username 
 			if (username == null || username.trim().length() == 0) {
 				resp.sendRedirect("/login");
 				return;

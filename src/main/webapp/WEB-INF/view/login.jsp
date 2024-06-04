@@ -54,7 +54,7 @@
 		<p />
 
 		<!-- OIDC 第三方登入 -->
-		<a href="#">使用 Google 登入 (OIDC)</a>
+		<a href="/oidc/google/login">使用 Google 登入 (OIDC)</a>
 		<p />
 	</form>
 

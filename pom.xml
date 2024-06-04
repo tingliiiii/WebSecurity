@@ -23,6 +23,36 @@
 
 	<dependencies>
 
+		<!-- OIDCUtil -->
+		<!--
+		https://mvnrepository.com/artifact/org.apache.httpcomponents.client5/httpclient5 
+		<dependency>
+			<groupId>org.apache.httpcomponents.client5</groupId>
+			<artifactId>httpclient5</artifactId>
+		</dependency>
+		-->
+
+		<!-- 請檢查 Maven 中心以獲得最新版本 -->
+		<!-- 上面有最新版本但很多語法要改所以先用舊版本 -->
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>4.5.13</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>fluent-hc</artifactId>
+			<version>4.5.13</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.nimbusds/nimbus-jose-jwt -->
+		<dependency>
+			<groupId>com.nimbusds</groupId>
+			<artifactId>nimbus-jose-jwt</artifactId>
+			<version>9.39.3</version>
+			<!-- <version>9.16</version> -->
+		</dependency>
+
 		<!-- GithubCallBack 使用 -->
 		<!-- https://mvnrepository.com/artifact/org.json/json -->
 		<dependency>

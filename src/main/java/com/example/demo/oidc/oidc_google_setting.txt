@@ -1,0 +1,25 @@
+1.
+OIDC Google OAuth 2.0 設定資料並記錄
+Callback URL: https://localhost:8443/callback/google
+Client ID: xxxxx
+Client secret: xxxxx
+
+2.
+oidc.OIDCUtil.java 配置上方資料
+
+3.
+撰寫 callback.GoogleCallback.java
+
+4.
+撰寫 oidc.GoogleLogin.java
+
+5.
+設定 login.jsp 
+<a href="/oidc/google/login">使用 Google 登入 (OIDC)</a>
+
+6.
+啟動 Springboot-WebSecurity-8084
+
+7.
+瀏覽器網址
+https://localhost:8443/form_auth/report
